@@ -5,5 +5,5 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/tejas-gandre-portfolio",
+  base: "/tejas-9er.github.io",
 });
