@@ -22,12 +22,16 @@ export const About = () => {
             {" "}
             About Me
           </h2>
+          <p className="text-gray-300 mb-6">
+            Passionate developer with expertise in building scalable web
+            applications and creating innovative solutions.
+          </p>
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-            <p className="text-gray-300 mb-6">
+            {/* <p className="text-gray-300 mb-6">
               Passionate developer with expertise in building scalable web
               applications and creating innovative solutions.
-            </p>
+            </p> */}
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
@@ -95,26 +99,11 @@ export const About = () => {
                     Software Engineer at Google (Feb 2023 - Dec 2024){" "}
                   </h4>
                   <p>
-                    During my tenure, I was a part of the CLI horizontal team for Google&apos;s private cloud(GDC air-gapped).
-                    My primary responsibilities focused on creating features and utilities that other teams could utilize
-                    to develop their features for the CLI. Apart from my primary responsibilities, I also participated in
-                    programs to improve product quality by becoming a Principle Pioneer and stress-testing products as required.
+                    Developed and maintained features and utilities fot the Google Private Cloud CLI
                   </p>
-                  <p>
+                  {/* <p>
                     Primary Tech stack: Golang, Kubernetes, Graphql, Typescript, Angular
-                  </p>
-                  <p>
-                    Key Achievements:
-                    <ul>
-                      <li> Developed CLI-Trees, using Golang and Cobra, to enhance terminal configuration and enhanced the CLI performance by 10%.</li>
-                      <li>Automated end-to-end testing, leading to a 30% reduction in testing time and a substantial improvement in product quality and reliability.</li>
-                      <li>Led multi-zone efforts for the GDC-air gapped Command Line Interface team, ensuring timely completion of a billion-dollar contract.</li>
-                      <li>Designed and implemented user-friendly utility tools, empowering sister teams to effectively utilize the CLI and create features that led to essential contract completion.</li>
-                      <li>Collaborated with UX designers and cross-functional teams to create multiple downloadable CLI versions.</li>
-                      <li>Significantly reduced CLI bundle size by 30%, resulting in faster download times and improved user satisfaction.</li>
-                      <li>Conducted rigorous code reviews to ensure adherence to best practices, leading to a more robust and maintainable codebase.</li>
-                    </ul>
-                  </p>
+                  </p> */}
                 </div>
 
                 <div>
@@ -123,27 +112,23 @@ export const About = () => {
                     Full Stack Software Developer at IDG (Feb 2021 - Feb 2023){" "}
                   </h4>
                   <p>
-                    During my tenure, I focused on converting intent data into human-readable metrics.
-                    I was responsible for converting intent data into human-readable data, displaying
-                    it on various dashboards, and creating dashboards if they did not exist.
-                    I achieved this using Javascript, AngularJs, VueJs, NodeJs, and PostgreSQL Database hosted on AWS.
+                    Developed and maintained dahsboards that translated intent data into actionable insights for the sales team.
                   </p>
-                  <p>
+                  {/* <p>
                     Primary Tech Stack: Javascript, AngularJs, VueJs, NodeJs, PostgreSQL, AWS
-                  </p>
-                  <p>
-                    Key Achievements:
-                    <ul>
-                      <li>Developed a dashboard for the sales team to track their performance, leading to a 20% increase in sales productivity.</li>
-                      <li>Implemented a data visualization tool that improved data interpretation and decision-making processes.</li>
-                      <li>Migrated an entire product from AngularJS to VueJS.</li>
-                      <li>Collaborated with cross-functional teams to gather requirements and deliver solutions that met business needs.</li>
-                      <li>Responsible for custom data retrieval on customer demand.</li>
-                    </ul>
-                  </p>
+                  </p> */}
                 </div>
 
-                <div>
+                <div className="flex justify-between items-center">
+                  <a
+                    href="https://www.linkedin.com/in/tejas-gandre/"
+                    className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  >
+                    View Details →
+                  </a>
+                </div>
+
+                {/* <div>
                   <h4 className="font-semibold">
                     {" "}
                     Software Engineer, Research Assistant at California State Polytechnic University, Pomona(Feb 2019 - Dec 2020){" "}
@@ -189,7 +174,7 @@ export const About = () => {
                       <li>Helped conduct Security and IT compliance audit and certification process</li>
                     </ul>
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

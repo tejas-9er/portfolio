@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 
-export const RevealOnScroll = ([ children ]) => {
-  const ref = useRef(null);
+export const RevealOnScroll = ( {children} ) => {
+  const ref = useRef();
 
   useEffect(() => {
     const observer = new IntersectionObserver(
