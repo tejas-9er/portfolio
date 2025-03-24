@@ -121,6 +121,8 @@ export const About = () => {
 
                 <div className="flex justify-between items-center">
                   <a
+                    target="_blank" 
+                    rel="noopener noreferrer"
                     href="https://www.linkedin.com/in/tejas-gandre/"
                     className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                   >

@@ -25,7 +25,7 @@ export const Publication = () => {
                 The pilot data collection and analysis have shown promise of this authentication system with an accuracy rate between 76.4%-92.3%.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+                {["Django", "Python", "HTML5", "CSS", "MNE-Python", "Scikit-learn"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -39,6 +39,8 @@ export const Publication = () => {
 
               <div className="flex justify-between items-center">
                 <a
+                  target="_blank"
+                  rel="noopener noreferrer"
                   href="https://ieeexplore.ieee.org/document/9006491"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
